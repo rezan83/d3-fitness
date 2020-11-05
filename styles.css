@@ -1,0 +1,37 @@
+:root {
+    --main-bg-color: rgb(65, 64, 64);
+    --main-theme-color: rgb(0, 178, 191);
+}
+.nav {
+    background: #333;
+}
+button {
+    background: var(--main-bg-color) !important;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.6em;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.active {
+    background: var(--main-theme-color) !important;
+}
+form span {
+    color: var(--main-theme-color) !important;
+}
+
+
+.x-axis line,
+.y-axis line,
+.x-axis path,
+.y-axis path {
+    stroke: #fff;
+}
+.x-axis text,
+.y-axis text {
+    fill: #fff;
+    font-size: 14px;
+}
